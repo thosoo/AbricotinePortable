@@ -2,7 +2,8 @@
 AbricotinePortable/App/Abricotine
 
 # Ignore Data folder
-AbricotinePortable/Data
+AbricotinePortable/Data/settings
+AbricotinePortable/Data/PortableApps.comLauncherRuntimeData-VSCodiumPortable.ini
 
 # Ignore Work folder
 Work
