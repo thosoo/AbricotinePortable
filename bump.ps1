@@ -6,7 +6,8 @@ try {
 }
 $repoName = "brrd/abricotine"
 $releasesUri = "https://api.github.com/repos/$repoName/releases/latest"
-$tag = (Invoke-WebRequest $releasesUri | ConvertFrom-Json).tag_name
+$fulltag = (Invoke-WebRequest $releasesUri | ConvertFrom-Json).tag_name
+$tag = $fulltag.Substring(1)
 $appinfo = Get-IniContent ".\AbricotinePortable\App\AppInfo\appinfo.ini"
 $appinfo["Version"]["PackageVersion"]=-join($tag,".0")
 $appinfo["Version"]["DisplayVersion"]=$tag
