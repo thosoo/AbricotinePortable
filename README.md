@@ -44,5 +44,5 @@ is packaged in an installer, complete zip file and always download the last vers
 
 *	Abricotine Portable released with the [MIT license](https://raw.githubusercontent.com/thosoo/AbricotinePortable/master/LICENSE).
 *	PortableApps.com Launcher released with the [GPL v2.0 license](https://raw.githubusercontent.com/thosoo/AbricotinePortable/master/AbricotinePortable/Other/Source/LauncherLicense.txt).
-*	Abricotine released with the [GPL v2.0 license](https://raw.githubusercontent.com/brrd/abricotine/develop/LICENSE).
+*	Abricotine released with the [GPL v3.0 license](https://raw.githubusercontent.com/brrd/abricotine/develop/LICENSE).
 
