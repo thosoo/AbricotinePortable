@@ -1,0 +1,15 @@
+# Ignore App folder
+AbricotinePortable/App/Abricotine
+
+# Ignore Data folder
+AbricotinePortable/Data
+
+# Ignore Work folder
+Work
+
+# Ignore log
+pac_installer_log.ini
+
+# Ignore installer
+AbricotinePortable/Other/Source/PortableApps.comInstaller*
+*.paf.exe
