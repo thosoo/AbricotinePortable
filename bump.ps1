@@ -14,6 +14,6 @@ $appinfo["Version"]["DisplayVersion"]=$tag
 $appinfo | Out-IniFile -Force -Encoding ASCII -Pretty -FilePath ".\AbricotinePortable\App\AppInfo\appinfo.ini"
 
 $installer = Get-IniContent ".\AbricotinePortable\App\AppInfo\installer.ini"
-$installer["DownloadFiles"]["DownloadURL"]=-join("https://github.com/brrd/abricotine/releases/download/",$tag,"/Abricotine-Setup-",$tag,".exe")
+$installer["DownloadFiles"]["DownloadURL"]=-join("https://github.com/brrd/abricotine/releases/download/",$fulltag,"/Abricotine-Setup-",$tag,".exe")
 $installer["DownloadFiles"]["DownloadFilename"]=-join("/Abricotine-Setup-",$tag,".exe")
 $installer | Out-IniFile -Force -Encoding ASCII -Pretty -FilePath ".\AbricotinePortable\App\AppInfo\installer.ini"
